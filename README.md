@@ -26,7 +26,8 @@ I am trying to make a attractive portfolio template that once can directly picku
 
 Here are 2 quick and painless ways to contribute to this project:
 
-* Create a simple python program of your choice or try fixing bugs in the repository folder: "Python Projects".
+* Add feature which would help creating an attractive workflow of your choice or try fixing bugs in the repository files.
+* While creating a PR kindly add image of the output showing what feature you have added and how it will look like.
 * Add your name to the  <a href="https://github.com/wbhoomika/portfolio-template-Hacktoberfest23/blob/main/CONTRIBUTING.md"> `CONTRIBUTORS.md` </a> file.
 
 Choose both, make a pull request for your work and wait for it to be merged!! 
