@@ -12,3 +12,9 @@
 #### Name: Bhoomika Wavhal
 - GitHub: https://github.com/wbhoomika/
 ```
+
+```markdown
+#### Name: Steven Smith
+- GitHub: https://github.com/squirrelthug/
+```
+
