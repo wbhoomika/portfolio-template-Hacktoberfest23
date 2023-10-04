@@ -1,0 +1,7 @@
+/* Scroll to Top Button Styles */
+#scrollToTopBtn {
+    position: fixed;  /* Fixed position */
+    bottom: 20px;     /* Position from the bottom */
+    right: 20px;      /* Position from the right */
+    display: none;    /* Initially hidden */
+}
