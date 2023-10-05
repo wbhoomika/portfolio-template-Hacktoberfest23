@@ -1,1 +1,30 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+}
+
+nav>a:hover {
+    color: gray;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
