@@ -17,3 +17,8 @@
 #### Name: Adnan Kaisar
 - GitHub: https://github.com/whoadnan101
 ```
+
+```markdown
+#### Name: Garvit Gupta 
+- GitHub: https://github.com/Garvit4093
+```
