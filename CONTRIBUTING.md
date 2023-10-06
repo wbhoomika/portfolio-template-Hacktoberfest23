@@ -17,3 +17,8 @@
 #### Name: Adnan Kaisar
 - GitHub: https://github.com/whoadnan101
 ```
+
+```markdown
+#### Name: Farrah Mamanakis
+- GitHub: https://github.com/famanakis
+```
