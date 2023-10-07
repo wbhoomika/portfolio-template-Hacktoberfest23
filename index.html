@@ -1,24 +1,436 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>My Personal Portfolio</title>
-</head>
-<body>
-  <header>
-    <h1>My Personal Website</h1>
-    <nav>
-      <a href="#">About Me</a>
-      <a href="#">My Contributions</a>
-      <a href="#">Contact Me</a>
-    </nav>
-  </header>
-  <main>
-    </main>
-  <footer>
-    <p>Copyright &copy; 2023 
-      <a href="https://github.com/wbhoomika/portfolio-template-Hacktoberfest23/graphs/contributors">portfolio-template-Hacktoberfest23</a>
-    </p>
-  </footer>
-</body>
-</html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>your name| Home Page</title>
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body class="see">
+
+
+  <nav class="navbar navbar-expand-lg bg-body-dark fixed-top hidden">
+    <div class="container-fluid hidden">
+      <a class="navbar-brand" href="/templates/index.html">your name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="btns">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active hidden" aria-current="page" href="/templates/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hidden" href="/templates/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hidden" href="/templates/about.html">About Me</a>
+            </li>
+            <li class="nav-item dropdown hidden">
+              <a class="nav-link nav-lin dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Certifications
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/templates/badges.html">Badges</a></li>
+                <li><a class="dropdown-item" href="/templates/certificate.html">Certifications</a></li>
+                <li><a class="dropdown-item" href="/templates/ongoing.html">On Going</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="toogle-btn">
+          <div class="sun-moon-container">
+            <img src="/images/sun (2).png" class="sun" alt="">
+            <img src="/images/crescent-moon.png" class="moon" alt="">
+          </div>
+          <button class="them-toogle-btn">swap</button>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="allclasses">
+    <div class="img-adjust hidden">
+      <main class="top hidden">
+        <div class="lefthand  hidden">
+          <div>
+            <!-- your image -->
+            <img src="your image" alt="network error" class="hidden">
+          </div>
+
+        </div>
+
+        <div class="righthand hidden">
+          <img src="/static/dev.png" alt="network error" class="hidden">
+<!-- please change it to your name your name  -->
+          <p class="hidden">Your Name</p> 
+          <div class="hidden">
+            <div class="hidden hello">Hello, I am <samp class="tarun ">your name</samp> and I am very passinote about
+              <div>
+                <span id="element"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </main>
+
+    <hr class="breark-line">
+
+    <div class="seemore hidden">
+      <p class="first-phara hidden"> A passionate and highly skilled professional with a strong interest in computers
+        and expertise in web technologies and programming languages. Proficient in Java, Python, SQL, MongoDB, and many
+        more, I possess a deep understanding of these technologies and their applications. </p>
+      <div class="container hidden" id="contentContainer">
+        <p>
+
+          With a genuine enthusiasm for the tech field, I am always eager to learn about new enhancements and
+          advancements. I believe in continuously expanding my knowledge and staying up-to-date with the latest trends.
+
+          Driven by the desire to excel, I consistently strive to deliver my best work. I thrive in challenging
+          environments and enjoy pushing the boundaries of what is possible. With a strong work ethic and a commitment
+          to excellence, I am dedicated to achieving outstanding results in every endeavor.
+
+          In addition to my technical skills, I am a strong communicator and a collaborative team player. I enjoy
+          working in dynamic and fast-paced environments, where I can contribute my expertise and actively contribute to
+          the success of the team.
+
+          Overall, I am a motivated and dedicated professional who thrives on the endless possibilities offered by the
+          world of technology. I am excited to leverage my skills and passion to make a meaningful impact in the field
+          and contribute to the success of any organization.
+
+      </div>
+      <button onclick="toggleContent()" class="fixed-button">See More</button>
+
+    </div>
+  </div>
+
+  <hr class="breark-line2">
+
+  <center><h1 class="pixel">My Experiences</h1></center>
+
+  <div class="mover2">
+    <div class="scroller" data-speed="fast">
+      <ul class="tag-list scroller__inner">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>SSG</li>
+        <li>webdev</li>
+        <li>animation</li>
+        <li>UI/UX</li>
+        <li>Web Designing</li>
+        <li>Video Editing</li>
+        <li>python development</li>
+        <li>Google cloud console</li>
+        <li>Vertex AI</li>
+        <li>Django</li>
+        <li>Prompting</li>
+        <li>Open Source</li>
+        <li>Content Writing</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="big-box hidden">
+
+
+    <div class="card  hidden">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="box1">
+            <img src="/static/pngwing.com (2).png" alt="image not downloaded">
+            <h1>python</h1>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="box2">
+            <div>
+              <h1 class="pixel">Python</h1>
+            </div>
+            <div class="fonts">
+              <ul>
+                <li>Readable</li>
+                <li>Expressive</li>
+                <li>Scalable</li>
+                <li>Dynamic</li>
+                <li>Portable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card hidden">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="box1">
+            <img src="/static/pngwing.com (1).png" alt="image not downloaded">
+            <h1>CSS</h1>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="box2">
+            <div>
+              <h1 class="pixel">CSS</h1>
+            </div>
+            <div class="fonts">
+              <ul>
+                <li>Styling</li>
+                <li>Responsive/li>
+                <li>Modular</li>
+                <li>Powerful</li>
+                <li>Adaptable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card hidden">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="box1">
+            <img src="/static/pngwing.com (3).png" alt="image not downloaded">
+            <h1>C++</h1>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="box2">
+            <div>
+              <h1 class="pixel">C++</h1>
+            </div>
+            <div class="fonts">
+              <ul>
+                <li>Robust</li>
+                <li>Efficient</li>
+                <li>Object-Oriented</li>
+                <li>Scalable</li>
+                <li>Portable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card hidden">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="box1">
+            <img src="/static/pngwing.com (4).png" alt="image not downloaded">
+            <h1>Flask</h1>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="box2">
+            <div>
+              <h1 class="pixel">Flask</h1>
+            </div>
+            <div class="fonts">
+              <ul>
+                <li>Readable</li>
+                <li>Expressive</li>
+                <li>Scalable</li>
+                <li>Dynamic</li>
+                <li>Portable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card hidden">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="box1">
+            <img src="/static/pngwing.com (5).png" alt="image not downloaded">
+            <h1>Node js</h1>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="box2">
+            <div>
+              <h1 class="pixel">Node JS</h1>
+            </div>
+            <div class="fonts">
+              <ul>
+                <li>Event-driven</li>
+                <li>Asynchronous</li>
+                <li>Lightweight</li>
+                <li>Server-side</li>
+                <li>JavaScript-based</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card hidden">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="box1">
+            <img src="/static/pngwing.com (6).png" alt="image not downloaded">
+            <h1>Davinchi Resolve</h1>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="box2">
+            <div>
+              <h1 class="pixel">Davinchi Resolve</h1>
+            </div>
+            <div class="fonts">
+              <ul>
+                <li>Professional</li>
+                <li>Editing Software</li>
+                <li>Feature-rich</li>
+                <li>Color Grading</li>
+                <li>Visual Effects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card hidden">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="box1">
+            <img src="/static/pngwing.com.png" alt="image not downloaded">
+            <h1>HTML</h1>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="box2">
+            <div>
+              <h1 class="pixel">HTML</h1>
+            </div>
+            <div class="fonts">
+              <ul>
+                <li>Semantics</li>
+                <li>Accessibility</li>
+                <li>Modularity</li>
+                <li>Interactivity</li>
+                <li>Versatility</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="/templates/certificate.html"><div class="card hidden">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="box1">
+            <img src="/static/Screenshot (121).jpg" alt="">
+
+            <h1>See more</h1>
+          </div>
+        </div>
+        <div class="card-back">
+          <div class="box2">
+            <h1 class="pixel">See More</h1>
+            
+          </div>
+          <div class="box2">
+            <h3 class="pixel">Certifications</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+
+
+
+    <div>
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <footer>
+    <div class="footer-content hidden">
+      <h3 class="taruns">your's Portfolio</h3>
+      <p>know about me and my experience in this field from these many years.</p>
+      <p>Do follow me no my social media handels here are some.</p>
+      <ul class="socials">
+        <li><a href="your id"><i class=" fa-facebook"></i><img src="/images/1 (1).png"
+              class="fa " alt=""> </a></li>
+        <li><a href="your id"><i class=" fa-twitter"></i><img
+              src="/images/1 (2).png" class="fa " alt=""> </a></li>
+        <li><a href="your id"><i class=" fa-google-plus"><img src="/images/1 (3).png" class="fa"
+                alt=""> </i></a></li>
+        <li><a href="your id"><i class=" fa-youtube"></i><img
+              src="/images/1 (4).png" class="fa hidden" alt=""> </a></li>
+        <li><a href="#"><i class=" fa-linkedin-square"><img src="/images/1 (5).png" class="fa hidden" alt=""> </i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom hidden">
+      <p>copyright © <a href="#">your's Portfolio </a></p>
+      <p class="newfoot">&nbsp; &nbsp;All Rights Reserved 2023 &#174;</p>
+      <div class="footer-menu hidden">
+        <ul class="f-menu hidden">
+          <li><a href="/templates/index.html">Home</a></li>
+          <li><a href="/templates/about.html">About</a></li>
+          <li><a href="/templates/contact.html">Contact</a></li>
+          <li><a href="/templates/projects.html">Projects</a></li>
+          <li><a href="/templates/projects.html">Admin</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <script src="/script.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developing', '&amp; Web Designing.', 'Content Writing.', 'Video Editing', 'python development', 'davinci resolve', 'Google cloud console', 'Microsoft Asure', 'Vertex AI', 'Java', 'Django', 'Prompting', 'Open Source'],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
