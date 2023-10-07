@@ -17,3 +17,8 @@
 #### Name: Adnan Kaisar
 - GitHub: https://github.com/whoadnan101
 ```
+
+```markdown
+#### Name: Tarun Nayaka
+- GitHub: https://github.com/Rtarun3606k
+```
