@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio templates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+        }
+
+        #view-frame {
+            height: 80vh;
+            width: 80%;
+            margin: 0 10vw;
+            border: 2px solid black;
+        }
+       #heading{
+        margin: 10px 0px;
+       }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+        }
+
+        .nav h6 {
+            font-size: large;
+        }
+
+        button {
+            padding: 5px 5px;
+            background: black;
+            color: white;
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">Templates</h1>
+    <iframe id="view-frame" src=""></iframe>
+    <div class="nav">
+        <button id="prev"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+            </svg></button>
+        <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z" />
+                <path fill-rule="evenodd"
+                    d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z" />
+            </svg></button>
+        <button id="nxt"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+            </svg></button>
+    </div>
+    
+</body>
+
+</html>
