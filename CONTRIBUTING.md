@@ -17,3 +17,8 @@
 #### Name: Adnan Kaisar
 - GitHub: https://github.com/whoadnan101
 ```
+
+```markdown
+#### Name: Hritik Raj
+- GitHub: https://github.com/Hritikraj8804
+```
