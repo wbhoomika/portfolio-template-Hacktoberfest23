@@ -17,3 +17,8 @@
 #### Name: Adnan Kaisar
 - GitHub: https://github.com/whoadnan101
 ```
+
+```markdown
+#### Name: Aditi Bansal
+- GitHub: https://github.com/Aditi22Bansal
+```
